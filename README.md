@@ -16,7 +16,13 @@
 
 ![20241217_131748](https://github.com/user-attachments/assets/750b2e27-ca32-43d5-9ca3-29714708644d)
 
+## 测试网站
 
+### [传送门（点我跳转）](https://test.nav.oneself.icu/)
+### 账号:admin
+### 密码:admin
+
+⚠️ 警告：请勿添加违法地址,系统会记录用户操作以及ip数据
 
 
 
@@ -72,7 +78,7 @@ composer install
 3. 环境配置
 ```bash
 cp .env.example .env
-php artisan key:generate
+//php artisan key:generate不存在需要手动生成后填写JWT_SECRET与APP_KEY（找个在线网站随机生成32位字符串即可）
 ```
 
 4. 配置数据库
@@ -116,6 +122,7 @@ php artisan serve
 cd /www/wwwroot/your_domain
 
 # 创建storage软链接
+先在/www/wwwroot/your_domain/public/storage/app目录下新建public文件夹
 ln -s /www/wwwroot/your_domain/storage/app/public /www/wwwroot/your_domain/public/storage
 
 # 设置目录权限
