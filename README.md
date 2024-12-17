@@ -1,5 +1,20 @@
 # 极简个人导航系统
 
+## 效果及页面展示
+
+- 基础页面
+![image](https://github.com/user-attachments/assets/dda858b6-5f13-4c87-88ee-6ec6d7b17809)
+![image](https://github.com/user-attachments/assets/c60da401-3cdd-4156-b6b3-4e5eb6af2cf1)
+![image](https://github.com/user-attachments/assets/f7c33d32-da58-4212-9cfe-954a4618e7c5)
+- 拖拽排序效果
+![20241217_131235](https://github.com/user-attachments/assets/39ff94f7-265d-4141-b7bc-d434ea0a58ba)
+- 站点隐藏以及分类、站点删除效果
+![20241217_131748](https://github.com/user-attachments/assets/750b2e27-ca32-43d5-9ca3-29714708644d)
+
+
+
+
+
 一个基于 Lumen + Vue3 构建的极简风格个人导航系统，支持自定义导航链接、分类管理等功能。
 后台账号:admin   后台密码:admin123
 
